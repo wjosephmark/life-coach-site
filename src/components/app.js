@@ -1,12 +1,17 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 
-export default class App extends Component {
-  render() {
-    return (
-      <div className='app'>
-        <h1>DevCamp React Starter</h1>
-        <h2>React Redux Router</h2>
+export default function Component() {
+
+  return (
+    <div className='app'>
+      <div className="text-container">
+        <div className="introduction-wrapper">
+          <h1>Hello, my name is Heidi Mark</h1>
+        </div>
+        <div className="mission-wrapper">
+          
+        </div>
       </div>
-    );
-  }
+    </div>
+  );
 }
