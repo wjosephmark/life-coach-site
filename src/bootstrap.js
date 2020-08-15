@@ -13,7 +13,7 @@ const routes = {
 
 function Main() {
   return(
-    <div>
+    <div className="bootstrap-wrapper">
       <div className="navbar">
         <A href="/">Home</A>
       </div>
