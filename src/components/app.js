@@ -7,6 +7,8 @@ export default function Component() {
       <div className="gradient-wrapper">
         <div className="gradient">
         </div>
+
+
       </div>
         <div className="text-container">
           <div className="introduction-wrapper">
@@ -16,7 +18,7 @@ export default function Component() {
             <h1>Mission Statement</h1>
           </div>
         </div>
-      </div>
+    </div>
 
   );
 }
