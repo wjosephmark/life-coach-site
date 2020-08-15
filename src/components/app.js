@@ -8,11 +8,9 @@ export default function Component() {
       <div className="gradient-wrapper">
         <div className="gradient">
           <div className="text-container">
-            <div className="introduction-wrapper">
-              <h1>Hello, my name is Heidi Mark</h1>
-            </div>
             <div className="mission-wrapper">
-              <h1>I coach women on intentional self care.  It’s not an indulgence, it’s a necessity.</h1>
+              <h1>I coach women on intentional self care.</h1>
+              <h1>  It’s not an indulgence, it’s a necessity.</h1>
             </div>
           </div>
         </div>
