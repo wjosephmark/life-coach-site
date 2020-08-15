@@ -14,43 +14,44 @@
 
     .bootstrap-wrapper{
         
-            .app {
-        
+        .app {
+    
+            height: 1000px;
+            width: 100%;
+            background-image: url("https://i.ibb.co/jypZVhV/heidi.jpg");
+            background-size: cover;
+            // display: flex;
+            // align-items: center;
+            
+
+            .gradient-wrapper{
                 height: 1000px;
                 width: 100%;
-                background-image: url("https://i.ibb.co/jypZVhV/heidi.jpg");
-                background-size: cover;
-                
-
-                .gradient-wrapper{
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                .gradient {
                     height: 1000px;
-                    width: 100%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: flex-end;
-                    .gradient {
-                        height: 1000px;
-                        width: 60%;
-                        background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255));
-                    }
-                }
-        
-                .text-container{
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    width: 100%;
-        
-                    .introduction-wrapper{
-                        width: 200px;
-                    }
-        
-                    .mission-wrapper{
-                        width: 200px;
+                    width: 60%;
+                    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+                    
+                    .text-container{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+            
+                        .introduction-wrapper{
+                            width: 200px;
+                        }
+            
+                        .mission-wrapper{
+                            width: 200px;
+                        }
                     }
                 }
             }
-
+        }
     }
 }
 
