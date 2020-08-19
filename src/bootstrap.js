@@ -8,7 +8,10 @@ import "./style/main.scss"
 import "./style/main.scss";
 
 const routes = {
-  "/": () => <App />
+  "/": () => <App />,
+  "/about": () => <About />,
+  // "/": () => <Work />,
+  "/": () => <Blog />
 }
 
 function Main() {

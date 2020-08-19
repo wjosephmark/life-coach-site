@@ -2,13 +2,6 @@
     margin: 0;
     padding: 0;
 }
- 
-// body{
-//     height: 100%;
-//     background-color: red;
-    
-// }
-
 
 .app-wrapper{
 
@@ -18,7 +11,7 @@
             font-family: 'Nunito', sans-serif;
             height: 1000px;
             width: 100%;
-            background-image: url("https://i.ibb.co/jypZVhV/heidi.jpg");
+            background-image: linear-gradient(to right, black, white);
             background-size: cover;
             // display: flex;
             // align-items: center;
