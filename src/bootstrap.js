@@ -9,9 +9,9 @@ import "./style/main.scss";
 
 const routes = {
   "/": () => <App />,
-  "/about": () => <About />,
+  // "/about": () => <About />,
   // "/": () => <Work />,
-  "/": () => <Blog />
+  // "/": () => <Blog />
 }
 
 function Main() {

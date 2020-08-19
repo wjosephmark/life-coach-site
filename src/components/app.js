@@ -5,6 +5,10 @@ export default function Component() {
   return (
     <div className='app'>
 
+      <div className="image-wrapper">
+        <img src="https://i.ibb.co/jypZVhV/heidi.jpg" />
+      </div>
+
       <div className="gradient-wrapper">
         <div className="gradient">
           <div className="text-container">
