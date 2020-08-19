@@ -3,15 +3,18 @@ import ReactDOM from "react-dom";
 import { useRoutes, A } from "hookrouter"
 
 import App from "./components/app";
+import Work from "./components/pages/work"
+import Blog from "./components/pages/blog"
+import About from "./components/pages/about"
 import "./style/main.scss"
 
 import "./style/main.scss";
 
 const routes = {
   "/": () => <App />,
-  // "/about": () => <About />,
-  // "/": () => <Work />,
-  // "/": () => <Blog />
+  "/about": () => <About />,
+  "/work-with-me": () => <Work />,
+  "/blog": () => <Blog />
 }
 
 function Main() {
