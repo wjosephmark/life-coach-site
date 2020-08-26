@@ -22,6 +22,9 @@ function Main() {
     <div className="bootstrap-wrapper">
       <div className="navbar">
         <A href="/">Home</A>
+        <A href="/about">About</A>
+        <A href="/work-with-me">Work With Me</A>
+        <A href="/blog">Blog</A>
       </div>
       {useRoutes(routes)}
     </div>
